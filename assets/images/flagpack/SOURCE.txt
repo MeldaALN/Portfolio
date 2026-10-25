@@ -1,0 +1,6 @@
+Flagpack Core, Yummygum
+https://github.com/Yummygum/flagpack-core
+Commit: 6e57695337a46831d3772ab4945d7a7f8e25d5c1
+Licence MIT : LICENSE.txt
+SVG originaux non modifiés
+{'FR': 'svg/m/FR.svg', 'GB-UKM': 'svg/m/GB-UKM.svg', 'TR': 'svg/m/TR.svg'}

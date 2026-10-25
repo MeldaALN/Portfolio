@@ -1,0 +1,5 @@
+<!-- CoreUI Free Icons, CoreUI, CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ ; adaptation: couleur violette. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <path fill="#7021ff" d="M400 464H48V104h192V72H16v424h416V272h-32z" class="ci-primary"/>
+  <path fill="#7021ff" d="M304 16v32h137.373L188.687 300.687l22.626 22.626L464 70.627V208h32V16z" class="ci-primary"/>
+</svg>

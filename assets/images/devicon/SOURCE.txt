@@ -1,0 +1,5 @@
+Devicon
+https://github.com/devicons/devicon
+Commit: 4fbcc685c9a85434bc01b1c236c9076f54806236
+Licence: MIT (LICENSE.txt)
+SQL utilise l’icône SQLite, technologie pratiquée dans le Job Board.

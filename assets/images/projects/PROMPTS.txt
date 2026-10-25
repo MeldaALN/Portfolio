@@ -1,0 +1,16 @@
+Built-in ImageGen — illustrations conceptuelles, pas des captures.
+
+nfl.png: Wide 16:9 illustration of an empty American football stadium with a football in foreground and abstract data points and analytical curves. Midnight navy/deep violet with blue/magenta. Elegant cinematic 3D editorial render. No people, text, numbers, logos, NFL shield, fake UI or watermark.
+
+hospital.png:
+Use case: stylized-concept. Asset: wide 16:9 project card illustration for a professional portfolio. Subject: a small cluster of elegant server racks and a cloud, subtle hospital medical cross on one server, representing a hospital infrastructure concept. Elegant polished 3D editorial render on midnight navy background with deep violet, restrained electric blue and magenta highlights. Wide horizontal composition, central subject clearly visible when cropped to a shallow banner. No text, no numbers, no labels, no logos, no watermark, no people, no fake application screenshot. Conceptual illustration only; do not imply a working completed implementation.
+
+cloud-cost.png:
+Use case: stylized-concept. Asset: wide 16:9 project card illustration for a professional portfolio. Subject: a cloud above a sleek abstract glowing analytical line graph, representing cloud cost monitoring, without axes labels or any numbers. Elegant polished 3D editorial render on midnight navy background with deep violet, restrained electric blue and magenta highlights. Wide horizontal composition, central subject clearly visible when cropped to a shallow banner. No text, no numbers, no labels, no logos, no watermark, no people, no fake application screenshot. Conceptual illustration only; do not imply a working completed implementation.
+
+docker.png:
+Use case: stylized-concept. Asset: wide 16:9 project card illustration for a professional portfolio. Subject: three connected translucent application containers in front of a server rack, representing a containerized three tier web application, no whale or company logo. Elegant polished 3D editorial render on midnight navy background with deep violet, restrained electric blue and magenta highlights. Wide horizontal composition, central subject clearly visible when cropped to a shallow banner. No text, no numbers, no labels, no logos, no watermark, no people, no fake application screenshot. Conceptual illustration only; do not imply a working completed implementation.
+
+cicd.png:
+Use case: stylized-concept. Asset: wide 16:9 project card illustration for a professional portfolio. Subject: a minimal continuous delivery pipeline with connected code brackets, a build container and a cloud, representing CI/CD. Elegant polished 3D editorial render on midnight navy background with deep violet, restrained electric blue and magenta highlights. Wide horizontal composition, central subject clearly visible when cropped to a shallow banner. No text, no numbers, no labels, no logos, no watermark, no people, no fake application screenshot. Conceptual illustration only; do not imply a working completed implementation.
+

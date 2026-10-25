@@ -1,0 +1,4 @@
+CoreUI Icons Free
+https://github.com/coreui/coreui-icons
+Commit: 88d1cfc47fc3cc84114de2a01b04db11a941bdf9
+Icônes gratuites : CC BY 4.0. Géométrie originale conservée ; couleur adaptée en violet #7021ff. Voir LICENSE.txt.

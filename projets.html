@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Projets de Melda ASLAN : Job Board en binôme à Epitech, NFL Big Data Bowl et projets Cloud/DevOps réalisés, en développement ou envisagés.">
+    <title>Projets — Melda ASLAN</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body class="dark-section detail-page">
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+    <header class="site-header">
+      <!-- Le monogramme est du texte stylisé, pas une image externe. -->
+      <a class="logo" href="index.html#accueil" aria-label="Melda ASLAN, accueil"><span>M</span><span class="gradient">A</span></a>
+      <nav aria-label="Navigation principale">
+        <a href="index.html#accueil">Accueil</a>
+        <a href="index.html#about">À propos</a>
+        <a href="index.html#parcours">Parcours</a>
+        <a href="index.html#projets">Projets</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+    <main id="contenu" tabindex="-1">
+      <div class="container projects-page">
+        <header class="projects-intro">
+          <p class="eyebrow">
+            Mes projets
+          </p>
+          <h1 class="section-title">
+            Des idées<br><span class="gradient">aux solutions.</span>
+          </h1>
+          <p>
+            Des projets académiques, personnels et en équipe qui me permettent d’appliquer mes compétences techniques, d’explorer de nouveaux outils et de résoudre des problématiques concrètes.
+          </p>
+        </header>
+        <section aria-label="Projets principaux">
+          <article class="project-feature" id="job-board">
+            <div class="project-media">
+              <p class="project-label">
+                01 / Projet en équipe <span class="tag">Réalisé · Oct. 2026</span>
+              </p>
+              <img class="jobboard-screenshot" src="assets/images/job-board.png" alt="Capture du Job Board : recherche d’emploi, filtres et offres récentes" width="2544" height="1132" loading="lazy">
+            </div>
+            <div class="project-copy">
+              <h2 class="content-heading">
+                Job Board – M&amp;A Corporation
+              </h2>
+              <p class="project-subtitle">
+                Plateforme d’offres d’emploi
+              </p>
+              <p>
+                Projet réalisé en binôme avec Aurélien dans le cadre du Bootstrap Epitech. Une plateforme permettant de consulter des offres, de postuler et de publier des annonces, avec un espace d’administration.
+              </p>
+              <ul class="feature-list">
+                <li>
+                  Consultation et pages de détail des annonces.
+                </li>
+                <li>
+                  Authentification candidat et entreprise avec JWT.
+                </li>
+                <li>
+                  Candidatures enregistrées dans SQLite.
+                </li>
+                <li>
+                  Administration des données et échanges via les API.
+                </li>
+              </ul>
+              <ul class="tags">
+                <li>
+                  React
+                </li>
+                <li>
+                  Vite
+                </li>
+                <li>
+                  CSS
+                </li>
+                <li>
+                  FastAPI
+                </li>
+                <li>
+                  SQLite
+                </li>
+                <li>
+                  SQL
+                </li>
+                <li>
+                  JWT
+                </li>
+                <li>
+                  Git
+                </li>
+              </ul>
+              <div class="project-actions">
+                <a class="button button-light" href="https://github.com/Aure-0411/Job_Board">Voir sur GitHub ↗</a><a class="button button-dark" href="#job-board-details">En savoir plus</a>
+              </div>
+            </div>
+          </article>
+          <details class="project-details" id="job-board-details">
+            <summary>
+              Ma contribution et mes apprentissages — Job Board
+            </summary>
+            <p>
+              J’ai développé et stylisé les composants AdCard et AdList, intégré des données provenant de l’API et créé le Header et le Footer. J’ai travaillé sur l’interface et le responsive, et participé aux tests et à l’intégration.
+            </p>
+            <p>
+              Ce projet m’a permis de mieux comprendre les échanges entre React, FastAPI et SQLite et de pratiquer Git en binôme. Le backend et l’authentification sont des fonctionnalités du projet collectif ; je ne m’en attribue pas seule le développement.
+            </p>
+            <p>
+              Pour présenter les annonces dans React, j’ai intégré les données de l’API aux composants AdList et AdCard, puis travaillé leur mise en forme en CSS. Les offres sont ainsi affichées sous forme de liste et de cartes : un exemple concret du lien entre les données du backend et l’interface.
+            </p>
+          </details>
+          <article class="project-feature" id="nfl-data">
+            <div class="project-media">
+              <p class="project-label">
+                02 / Hackathon <span class="tag">Réalisé · Oct. 2026</span>
+              </p>
+              <figure class="project-illustration">
+                  <img src="assets/images/projects/nfl-maquette-v2.png" alt="Stade de football américain, logo NFL et panneaux de données" width="1983" height="793" loading="lazy">
+                  <figcaption>Illustration conceptuelle</figcaption>
+                </figure>
+            </div>
+            <div class="project-copy">
+              <h2 class="content-heading">
+                NFL Big Data Bowl
+              </h2>
+              <p class="project-subtitle">
+                Analyse de données sportives · Paris Side Quest
+              </p>
+              <p>
+                Projet réalisé en équipe de trois en octobre 2026. Exploration des données NFL autour de l’hypothèse du « joueur invisible » et réalisation de visualisations avec Python, pandas et matplotlib.
+              </p>
+              <ul class="tags">
+                <li>
+                  Python
+                </li>
+                <li>
+                  Pandas
+                </li>
+                <li>
+                  Matplotlib
+                </li>
+              </ul>
+              <div class="project-actions">
+                <a class="button button-dark" href="#nfl-details">En savoir plus</a>
+              </div>
+            </div>
+          </article>
+          <details class="project-details" id="nfl-details">
+            <summary>
+              Mon rôle et mes apprentissages — NFL
+            </summary>
+            <p>
+              Participation à l’exploration des données et au travail de représentation graphique en équipe. Cette expérience m’a permis de pratiquer Python, pandas et matplotlib dans un contexte d’analyse.
+            </p>
+          </details>
+        </section>
+        <section class="cloud-section" aria-labelledby="cloud-title">
+          <h2 class="visually-hidden content-heading" id="cloud-title">
+            Projets Cloud et DevOps
+          </h2>
+          <div class="cloud-grid">
+            <article class="project-small" id="hospital">
+              <p class="project-label">
+                Projet <span class="tag">En développement</span>
+              </p>
+              <figure class="project-illustration project-illustration-small">
+                  <img src="assets/images/projects/hospital-maquette-v2.png" alt="Serveurs violets et nuages sur fond géométrique" width="1983" height="793" loading="lazy">
+                  <figcaption>Illustration conceptuelle</figcaption>
+                </figure>
+              <h3 class="subheading">
+                Hospital DevOps Platform
+              </h3>
+              <p class="muted">
+                Projet fil rouge · En développement
+              </p>
+              <p>
+                Développement d’un backend et d’API avec FastAPI et PostgreSQL, conteneurisation avec Docker et mise en place progressive d’une chaîne CI/CD avec GitHub Actions.
+              </p>
+              <ul class="tags">
+                <li>
+                  Python
+                </li>
+                <li>
+                  FastAPI
+                </li>
+                <li>
+                  PostgreSQL
+                </li>
+                <li>
+                  Docker
+                </li>
+                <li>
+                  GitHub Actions
+                </li>
+              </ul>
+            </article>
+            <article class="project-small" id="cloud-cost">
+              <p class="project-label">
+                Projet <span class="tag">Terminé</span>
+              </p>
+              <figure class="project-illustration project-illustration-small">
+                  <img src="assets/images/projects/cloud-cost-maquette-v2.png" alt="Courbe de suivi des coûts avec cloud et serveurs" width="1983" height="793" loading="lazy">
+                  <figcaption>Illustration conceptuelle</figcaption>
+                </figure>
+              <h3 class="subheading">
+                Cloud Cost Monitoring & Alerting
+              </h3>
+              <p class="muted">
+                Surveillance des coûts Cloud
+              </p>
+              <p>
+                Détection d’anomalies sur des coûts Cloud simulés, envoi d’alertes e-mail et sécurisation des secrets via un fichier .env.
+              </p>
+              <ul class="tags">
+                <li>
+                  Python
+                </li>
+                <li>
+                  Docker
+                </li>
+                <li>
+                  SMTP
+                </li>
+                <li>
+                  Git
+                </li>
+              </ul>
+            </article>
+            <article class="project-small" id="docker-app">
+              <p class="project-label">
+                Projet <span class="tag">Terminé</span>
+              </p>
+              <figure class="project-illustration project-illustration-small">
+                  <img src="assets/images/projects/docker-maquette-v2.png" alt="Baleine Docker bleue dans une salle de serveurs" width="1983" height="793" loading="lazy">
+                  <figcaption>Illustration conceptuelle</figcaption>
+                </figure>
+              <h3 class="subheading">
+                Docker Mini App
+              </h3>
+              <p class="muted">
+                Application web conteneurisée
+              </p>
+              <p>
+                Application web à trois tiers avec Flask, PostgreSQL et Nginx. Les services sont conteneurisés et orchestrés avec Docker Compose.
+              </p>
+              <ul class="tags">
+                <li>
+                  Docker
+                </li>
+                <li>
+                  Flask
+                </li>
+                <li>
+                  PostgreSQL
+                </li>
+                <li>
+                  Nginx
+                </li>
+              </ul>
+            </article>
+            <article class="project-small" id="cicd">
+              <p class="project-label">
+                Projet <span class="tag">Envisagé</span>
+              </p>
+              <figure class="project-illustration project-illustration-small">
+                  <img src="assets/images/projects/cicd.png" alt="Chaîne de livraison reliant code, conteneur et cloud" width="1672" height="941" loading="lazy">
+                  <figcaption>Illustration conceptuelle</figcaption>
+                </figure>
+              <h3 class="subheading">
+                DevOps Cloud CI/CD
+              </h3>
+              <p class="muted">
+                Automatisation des déploiements
+              </p>
+              <p>
+                Piste de projet pour explorer l’automatisation de la construction et du déploiement d’une application dans le Cloud.
+              </p>
+              <ul class="tags">
+              </ul>
+            </article>
+          </div>
+        </section>
+        <section class="projects-banner">
+          <div>
+            <h2 class="content-heading">
+              D’autres projets <span class="gradient">en cours…</span>
+            </h2>
+            <p>
+              Je continue d’explorer de nouvelles idées, d’approfondir mes compétences et de mettre en pratique ce que j’apprends à Epitech.
+            </p>
+          </div>
+          <a class="button button-light" href="https://github.com/MeldaALN">Voir tous mes projets sur GitHub ↗</a>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-content">
+        <a class="logo" href="index.html#accueil" aria-label="Melda ASLAN, accueil"><span>M</span><span class="gradient">A</span></a>
+        <p>© 2026 Melda ASLAN</p>
+        <a class="back-to-top" href="index.html#accueil">Retour en haut ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
